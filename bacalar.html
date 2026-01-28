@@ -36,16 +36,16 @@
 <body class="bg-background-light dark:bg-background-dark text-[#111718] dark:text-white transition-colors duration-300">
 <!-- Navigation -->
 <div class="sticky top-0 z-50 w-full bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-[#f0f4f5] dark:border-white/10">
-<div class="max-w-[1200px] mx-auto px-6 py-4 flex items-center justify-between">
-<div class="flex items-center gap-3">
-<div class="size-8 text-primary">
+<div class="max-w-[1200px] mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
+<div class="flex items-center gap-2 sm:gap-3 min-w-0">
+<div class="size-6 sm:size-8 text-primary flex-shrink-0">
 <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
 <path d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z" fill="currentColor"></path>
 </svg>
 </div>
-<h2 class="text-xl font-extrabold tracking-tight">La Santa Bacalar</h2>
+<h2 class="text-lg sm:text-xl font-extrabold tracking-tight truncate">La Santa Bacalar</h2>
 </div>
-<div class="hidden md:flex items-center gap-10">
+<div class="hidden md:flex items-center gap-8 lg:gap-10">
 <a class="text-sm font-semibold hover:text-primary transition-colors" href="#habitaciones">Habitaciones</a>
 <a class="text-sm font-semibold hover:text-primary transition-colors" href="#servicios">Servicios</a>
 <a class="text-sm font-semibold hover:text-primary transition-colors" href="#galeria">Galería</a>
@@ -53,25 +53,34 @@
                     Reservar Ahora
                 </button>
 </div>
+<div class="md:hidden flex items-center gap-3">
+<a href="https://wa.me/yournumber" class="bg-[#25D366] text-white p-2 rounded-full hover:scale-110 transition-transform">
+<span class="material-symbols-outlined !text-lg">chat</span>
+</a>
+<button class="bg-primary text-white px-4 py-2 rounded-full text-xs sm:text-sm font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform">
+                    Reservar
+                </button>
+</div>
 </div>
 </div>
 <!-- Hero Section -->
 <main>
-<section class="relative px-6 py-8 max-w-[1280px] mx-auto">
-<div class="relative overflow-hidden rounded-xl md:rounded-xl aspect-[16/9] min-h-[500px] flex items-center justify-center text-center p-8 bg-cover bg-center" data-alt="Turquoise Bacalar lagoon with wooden pier at sunrise" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBnnbV24t-JcXNf7kP9V9_j-k1YUkp_wVEiz2Jb2W6X3DDXcb_Ns-u5-kMKqIsZQCf76V_P0_Zf3BUtpiFQdA1_vI2Yc_JAY1B_Qy1lqaiMJGkzX0gR0To9s5AQCsPeJrVukhFSn4yKuFxualecwdHFNP-Z4Cd2-8-eFhF4UKb14AdMVPfnzc9CJ_R6aTVtEW8mnIASh_mQ-73iLzdrbxOSw_aU5ltamWeYff1UrQIBipMpPhpEcyn1HJ1JFGlxylDtEUhvEkIBYMY");'>
-<div class="max-w-3xl space-y-6">
-<h1 class="text-white text-4xl md:text-6xl font-black leading-[1.1] tracking-tight">
+<section class="relative px-4 sm:px-6 py-6 sm:py-8 max-w-[1280px] mx-auto">
+<div class="relative overflow-hidden rounded-lg sm:rounded-xl aspect-[16/9] min-h-[300px] sm:min-h-[500px] flex items-center justify-center text-center p-4 sm:p-8 bg-cover bg-center" data-alt="Turquoise Bacalar lagoon with wooden pier at sunrise" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBnnbV24t-JcXNf7kP9V9_j-k1YUkp_wVEiz2Jb2W6X3DDXcb_Ns-u5-kMKqIsZQCf76V_P0_Zf3BUtpiFQdA1_vI2Yc_JAY1B_Qy1lqaiMJGkzX0gR0To9s5AQCsPeJrVukhFSn4yKuFxualecwdHFNP-Z4Cd2-8-eFhF4UKb14AdMVPfnzc9CJ_R6aTVtEW8mnIASh_mQ-73iLzdrbxOSw_aU5ltamWeYff1UrQIBipMpPhpEcyn1HJ1JFGlxylDtEUhvEkIBYMY");'>
+<div class="max-w-3xl space-y-3 sm:space-y-6">
+<h1 class="text-white text-3xl sm:text-4xl md:text-6xl font-black leading-[1.1] tracking-tight">
                         Descubre el Paraíso en la <span class="text-primary">Laguna de Bacalar</span>
 </h1>
-<p class="text-white/90 text-lg md:text-xl font-medium max-w-xl mx-auto">
+<p class="text-white/90 text-base sm:text-lg md:text-xl font-medium max-w-xl mx-auto px-2">
                         Un refugio boutique diseñado para la relajación profunda y la conexión mística con la naturaleza.
                     </p>
-<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-<button class="bg-[#25D366] hover:bg-[#128C7E] text-white px-8 py-4 rounded-full font-bold flex items-center gap-2 transition-all shadow-xl">
-<span class="material-symbols-outlined">chat</span>
-                            Reserva por WhatsApp
+<div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 pt-2 sm:pt-4 px-2">
+<button class="bg-[#25D366] hover:bg-[#128C7E] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold flex items-center justify-center gap-2 transition-all shadow-xl w-full sm:w-auto text-sm sm:text-base">
+<span class="material-symbols-outlined text-lg sm:text-xl">chat</span>
+                            <span class="hidden xs:inline">Reserva por WhatsApp</span>
+                            <span class="xs:hidden">WhatsApp</span>
                         </button>
-<button class="bg-white/20 backdrop-blur-md hover:bg-white/30 text-white px-8 py-4 rounded-full font-bold transition-all border border-white/30">
+<button class="bg-white/20 backdrop-blur-md hover:bg-white/30 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold transition-all border border-white/30 w-full sm:w-auto text-sm sm:text-base">
                             Explorar Galería
                         </button>
 </div>
@@ -79,78 +88,78 @@
 </div>
 </section>
 <!-- Our Essence / About -->
-<section class="py-20 px-6 max-w-[1200px] mx-auto">
-<div class="grid md:grid-cols-2 gap-16 items-center">
+<section class="py-12 sm:py-16 md:py-20 px-4 sm:px-6 max-w-[1200px] mx-auto">
+<div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
 <div>
-<span class="text-primary font-bold tracking-widest uppercase text-sm">Bienvenidos</span>
-<h2 class="text-3xl md:text-4xl font-bold mt-4 mb-6 leading-tight">Nuestra Esencia: Paz, Silencio y Agua Cristalina</h2>
-<p class="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-6">
+<span class="text-primary font-bold tracking-widest uppercase text-xs sm:text-sm">Bienvenidos</span>
+<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 sm:mt-4 mb-4 sm:mb-6 leading-tight">Nuestra Esencia: Paz, Silencio y Agua Cristalina</h2>
+<p class="text-gray-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed mb-6">
                         Situado en la orilla virgen de la Laguna de los Siete Colores, La Santa es más que un hotel. Es un santuario donde el tiempo se detiene y los sentidos se despiertan con el suave murmullo del viento entre las palmeras.
                     </p>
-<div class="flex gap-8 border-t border-gray-100 dark:border-white/10 pt-8">
+<div class="flex gap-6 sm:gap-8 border-t border-gray-100 dark:border-white/10 pt-6 sm:pt-8">
 <div>
-<p class="text-3xl font-black text-primary">07</p>
-<p class="text-sm font-bold uppercase tracking-tighter">Colores de la Laguna</p>
+<p class="text-2xl sm:text-3xl font-black text-primary">07</p>
+<p class="text-xs sm:text-sm font-bold uppercase tracking-tighter">Colores de la Laguna</p>
 </div>
 <div>
-<p class="text-3xl font-black text-primary">100%</p>
-<p class="text-sm font-bold uppercase tracking-tighter">Energía Limpia</p>
+<p class="text-2xl sm:text-3xl font-black text-primary">100%</p>
+<p class="text-xs sm:text-sm font-bold uppercase tracking-tighter">Energía Limpia</p>
 </div>
 </div>
 </div>
-<div class="grid grid-cols-2 gap-4">
-<div class="h-80 w-full rounded-xl bg-cover bg-center mt-12" data-alt="Boutique hotel room interior with wooden accents" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC3eU2Iq9pjVyWUjyICSnseprTNghDsBY_3L7Bn-dsnlDImypVC4LSrNlSV19kl0hhhf_uMjfseIb6-IanYWCflhdn8jnY3vM1zA5ip43e7zJKSsmYrEJKq5xDrG663HFVuNgt_ee0TGEd-w3vu3JIH3HcbDRUzyUH7vdck-bsWUeaIyMiVNMOYfHj9bkCiY3g3q-zKepSagmlWVs705fFohKPgIfbizeI-bUvkHxIN3OhuJ7NqrPwuxeoSHL2TinaijPbeM0-B5Qg");'></div>
-<div class="h-80 w-full rounded-xl bg-cover bg-center" data-alt="Tropical cocktail on a wooden table facing the lagoon" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1gtpvSUKcrUZByogUghIA1dm6HKvjGxJ4iypKP6s9fInwNQmI5FKsLlAamotdyYKOmADdt789zrr7veQha4V_J59XxiiLmbuU18vTJ9U66xBEDGb0QKH9Sgh8SskZjrRCjNGqJPp5G6Gdko6ubNsq0ks4ZL-nXjLFto0hok7dPle2qY-tLY0ltWrdNfo0Bg8q2M5ahYWqZtgk0VGomD4o9SQSRNzapJeKHtRsWTobZYmn1YEl7gHaoDi2dYMo_h3kkDRh-ejT90o");'></div>
+<div class="grid grid-cols-2 gap-3 sm:gap-4">
+<div class="h-48 sm:h-64 md:h-80 w-full rounded-lg sm:rounded-xl bg-cover bg-center mt-0 sm:mt-12" data-alt="Boutique hotel room interior with wooden accents" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC3eU2Iq9pjVyWUjyICSnseprTNghDsBY_3L7Bn-dsnlDImypVC4LSrNlSV19kl0hhhf_uMjfseIb6-IanYWCflhdn8jnY3vM1zA5ip43e7zJKSsmYrEJKq5xDrG663HFVuNgt_ee0TGEd-w3vu3JIH3HcbDRUzyUH7vdck-bsWUeaIyMiVNMOYfHj9bkCiY3g3q-zKepSagmlWVs705fFohKPgIfbizeI-bUvkHxIN3OhuJ7NqrPwuxeoSHL2TinaijPbeM0-B5Qg");'></div>
+<div class="h-48 sm:h-64 md:h-80 w-full rounded-lg sm:rounded-xl bg-cover bg-center" data-alt="Tropical cocktail on a wooden table facing the lagoon" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1gtpvSUKcrUZByogUghIA1dm6HKvjGxJ4iypKP6s9fInwNQmI5FKsLlAamotdyYKOmADdt789zrr7veQha4V_J59XxiiLmbuU18vTJ9U66xBEDGb0QKH9Sgh8SskZjrRCjNGqJPp5G6Gdko6ubNsq0ks4ZL-nXjLFto0hok7dPle2qY-tLY0ltWrdNfo0Bg8q2M5ahYWqZtgk0VGomD4o9SQSRNzapJeKHtRsWTobZYmn1YEl7gHaoDi2dYMo_h3kkDRh-ejT90o");'></div>
 </div>
 </div>
 </section>
 <!-- Services Section -->
-<section class="bg-sand dark:bg-white/5 py-24" id="servicios">
-<div class="max-w-[1200px] mx-auto px-6">
-<div class="text-center max-w-2xl mx-auto mb-16">
-<h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Servicios Exclusivos</h2>
-<p class="text-gray-600 dark:text-gray-400">Diseñados para que tu única preocupación sea disfrutar del horizonte.</p>
+<section class="bg-sand dark:bg-white/5 py-16 sm:py-20 md:py-24" id="servicios">
+<div class="max-w-[1200px] mx-auto px-4 sm:px-6">
+<div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
+<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 tracking-tight">Servicios Exclusivos</h2>
+<p class="text-gray-600 dark:text-gray-400 text-sm sm:text-base">Diseñados para que tu única preocupación sea disfrutar del horizonte.</p>
 </div>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
 <!-- Service Card 1 -->
-<div class="bg-white dark:bg-background-dark p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-<div class="bg-primary/10 text-primary p-3 rounded-lg w-fit mb-6">
-<span class="material-symbols-outlined !text-3xl">wifi</span>
+<div class="bg-white dark:bg-background-dark p-6 sm:p-8 rounded-lg sm:rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-primary/10 text-primary p-2 sm:p-3 rounded-lg w-fit mb-4 sm:mb-6">
+<span class="material-symbols-outlined !text-2xl sm:!text-3xl">wifi</span>
 </div>
-<h3 class="font-bold text-xl mb-2">Starlink WiFi</h3>
-<p class="text-sm text-gray-500 dark:text-gray-400">Conexión de alta velocidad en todo el complejo, incluso en el muelle.</p>
+<h3 class="font-bold text-lg sm:text-xl mb-2">Starlink WiFi</h3>
+<p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Conexión de alta velocidad en todo el complejo, incluso en el muelle.</p>
 </div>
 <!-- Service Card 2 -->
-<div class="bg-white dark:bg-background-dark p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-<div class="bg-primary/10 text-primary p-3 rounded-lg w-fit mb-6">
-<span class="material-symbols-outlined !text-3xl">kayaking</span>
+<div class="bg-white dark:bg-background-dark p-6 sm:p-8 rounded-lg sm:rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-primary/10 text-primary p-2 sm:p-3 rounded-lg w-fit mb-4 sm:mb-6">
+<span class="material-symbols-outlined !text-2xl sm:!text-3xl">kayaking</span>
 </div>
-<h3 class="font-bold text-xl mb-2">Kayaks Gratuitos</h3>
-<p class="text-sm text-gray-500 dark:text-gray-400">Explora la laguna a tu ritmo con nuestro equipo de remo premium.</p>
+<h3 class="font-bold text-lg sm:text-xl mb-2">Kayaks Gratuitos</h3>
+<p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Explora la laguna a tu ritmo con nuestro equipo de remo premium.</p>
 </div>
 <!-- Service Card 3 -->
-<div class="bg-white dark:bg-background-dark p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-<div class="bg-primary/10 text-primary p-3 rounded-lg w-fit mb-6">
-<span class="material-symbols-outlined !text-3xl">ac_unit</span>
+<div class="bg-white dark:bg-background-dark p-6 sm:p-8 rounded-lg sm:rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-primary/10 text-primary p-2 sm:p-3 rounded-lg w-fit mb-4 sm:mb-6">
+<span class="material-symbols-outlined !text-2xl sm:!text-3xl">ac_unit</span>
 </div>
-<h3 class="font-bold text-xl mb-2">Aire Acondicionado</h3>
-<p class="text-sm text-gray-500 dark:text-gray-400">Sistemas eco-amigables para garantizar tu confort durante la noche.</p>
+<h3 class="font-bold text-lg sm:text-xl mb-2">Aire Acondicionado</h3>
+<p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Sistemas eco-amigables para garantizar tu confort durante la noche.</p>
 </div>
 <!-- Service Card 4 -->
-<div class="bg-white dark:bg-background-dark p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-<div class="bg-primary/10 text-primary p-3 rounded-lg w-fit mb-6">
-<span class="material-symbols-outlined !text-3xl">deck</span>
+<div class="bg-white dark:bg-background-dark p-6 sm:p-8 rounded-lg sm:rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="bg-primary/10 text-primary p-2 sm:p-3 rounded-lg w-fit mb-4 sm:mb-6">
+<span class="material-symbols-outlined !text-2xl sm:!text-3xl">deck</span>
 </div>
-<h3 class="font-bold text-xl mb-2">Muelle Privado</h3>
-<p class="text-sm text-gray-500 dark:text-gray-400">Acceso directo y exclusivo a las aguas cristalinas de la laguna.</p>
+<h3 class="font-bold text-lg sm:text-xl mb-2">Muelle Privado</h3>
+<p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Acceso directo y exclusivo a las aguas cristalinas de la laguna.</p>
 </div>
 </div>
 </div>
 </section>
 <!-- Gallery Grid -->
-<section class="py-24 px-6 max-w-[1200px] mx-auto" id="galeria">
-<h2 class="text-3xl font-bold mb-10 text-center tracking-tight">Experiencias Inolvidables</h2>
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<section class="py-16 sm:py-20 md:py-24 px-4 sm:px-6 max-w-[1200px] mx-auto" id="galeria">
+<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-10 text-center tracking-tight">Experiencias Inolvidables</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3 md:gap-4">
 <div class="aspect-square rounded-xl bg-cover bg-center overflow-hidden group relative" data-alt="Aerial view of a swimming pool next to the lagoon" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBO67RCdFgZVlvpHwIQxaqk2gf1pxjDVlgC3-Hszoer8rBZywLOpMEtn9d2TNtYbO0R-9apdredTF6ZZD-hfAXKO-sRIpGrN1r6iYwwzM9-prlgc_dxqMAKikuolT0bIV4APnT6xRB46O66MdIXfAJArWkmWBXb0iqzT1Rg8zDQpsInJfSFugT65QYbwTCUGkNLc0xNISCIIcAaqnTpbyA6T9-urLTZOtj4RTirOXl4LHJizy09zxkpj_B3GOYunAfpgZnmD3bOffo");'>
 <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
 </div>
@@ -172,85 +181,85 @@
 </div>
 </section>
 <!-- Testimonials -->
-<section class="bg-[#111718] text-white py-24 overflow-hidden">
-<div class="max-w-[1200px] mx-auto px-6">
-<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<section class="bg-[#111718] text-white py-16 sm:py-20 md:py-24 overflow-hidden">
+<div class="max-w-[1200px] mx-auto px-4 sm:px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16 gap-4 sm:gap-6">
 <div>
-<span class="text-primary font-bold uppercase tracking-widest text-sm">Reseñas</span>
-<h2 class="text-3xl md:text-4xl font-bold mt-4 tracking-tight">Lo que dicen nuestros huéspedes</h2>
+<span class="text-primary font-bold uppercase tracking-widest text-xs sm:text-sm">Reseñas</span>
+<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 sm:mt-4 tracking-tight">Lo que dicen nuestros huéspedes</h2>
 </div>
 <div class="flex gap-2">
-<button class="size-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10">
+<button class="size-10 sm:size-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10">
 <span class="material-symbols-outlined">chevron_left</span>
 </button>
-<button class="size-12 rounded-full bg-primary text-[#111718] flex items-center justify-center hover:scale-105">
+<button class="size-10 sm:size-12 rounded-full bg-primary text-[#111718] flex items-center justify-center hover:scale-105">
 <span class="material-symbols-outlined">chevron_right</span>
 </button>
 </div>
 </div>
-<div class="grid md:grid-cols-3 gap-8">
+<div class="grid md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
 <!-- Testimonial 1 -->
-<div class="bg-white/5 p-8 rounded-xl border border-white/10 space-y-4">
+<div class="bg-white/5 p-6 sm:p-8 rounded-lg sm:rounded-xl border border-white/10 space-y-4">
 <div class="flex text-yellow-400">
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
 </div>
-<p class="text-white/80 italic leading-relaxed">
+<p class="text-white/80 italic leading-relaxed text-sm sm:text-base">
                             "Un lugar mágico. La vista desde la habitación es inmejorable y el acceso directo a la laguna con los kayaks hizo que nuestro viaje fuera especial. ¡Volveremos!"
                         </p>
 <div class="flex items-center gap-4 pt-4">
-<div class="size-12 rounded-full bg-primary/20 overflow-hidden">
+<div class="size-10 sm:size-12 rounded-full bg-primary/20 overflow-hidden flex-shrink-0">
 <img class="w-full h-full object-cover" data-alt="Guest portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnQ_vf1Ir_PganbBnQvIqskdZ9ZrfgUhQxSrj8QkS1Lwy0pojLUov7FUfzEapErooEBPVA6Jd6NZWnnbQ4F631eerX2PJGotH8ZZlF3l_U2efpMJTRwYu8LSZuQsXqy7u5TKemMWvclwpCXd1qSuqbmmwOu-rmXio0enbxZXio749VBUVgD01WXSvxadENc43AkfjBehphhb_cYTr2wDIzTo7UovyPoSIoLQsanrm1jZ9Xhesyw_Xr0ABphLYk_RGR75o120EeKS0"/>
 </div>
-<div>
-<p class="font-bold">Ana García</p>
+<div class="min-w-0">
+<p class="font-bold text-sm sm:text-base">Ana García</p>
 <p class="text-xs text-white/50 uppercase font-bold">México</p>
 </div>
 </div>
 </div>
 <!-- Testimonial 2 -->
-<div class="bg-white/5 p-8 rounded-xl border border-white/10 space-y-4">
+<div class="bg-white/5 p-6 sm:p-8 rounded-lg sm:rounded-xl border border-white/10 space-y-4">
 <div class="flex text-yellow-400">
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
 </div>
-<p class="text-white/80 italic leading-relaxed">
+<p class="text-white/80 italic leading-relaxed text-sm sm:text-base">
                             "La paz que se respira en La Santa es única. El muelle privado es perfecto para ver el amanecer. El personal es increíblemente amable y atento."
                         </p>
 <div class="flex items-center gap-4 pt-4">
-<div class="size-12 rounded-full bg-primary/20 overflow-hidden">
+<div class="size-10 sm:size-12 rounded-full bg-primary/20 overflow-hidden flex-shrink-0">
 <img class="w-full h-full object-cover" data-alt="Guest portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB86PTDZSzxGQvmxMdM0RNaTe3rdd-HmEQs4jcPlWWspqp7XJDo0WCBYEalteaRm5L7qFNf3gCzp6uhSgcCNwwRv1ZJuqeVtTeX6gLP5U09JUq2ySJi6N_giqppaiBZKdnJDidvaCyTKvnHQCr-y0Pg6LSgnM7DEWEC2PlAU2KwnUEuqEWN4upUJJgpNQlMW-Gpi2TVd5GGjdi2aNX_pYeDPWTnaojLeprU9tScEpzMA0jeS4DrdbtXhxnk2wt4RyZCsPxH9ogNsXc"/>
 </div>
-<div>
-<p class="font-bold">Mark Thompson</p>
+<div class="min-w-0">
+<p class="font-bold text-sm sm:text-base">Mark Thompson</p>
 <p class="text-xs text-white/50 uppercase font-bold">Canada</p>
 </div>
 </div>
 </div>
 <!-- Testimonial 3 -->
-<div class="bg-white/5 p-8 rounded-xl border border-white/10 space-y-4">
+<div class="bg-white/5 p-6 sm:p-8 rounded-lg sm:rounded-xl border border-white/10 space-y-4">
 <div class="flex text-yellow-400">
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
-<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
+<span class="material-symbols-outlined !text-lg sm:!text-xl">star</span>
 </div>
-<p class="text-white/80 italic leading-relaxed">
+<p class="text-white/80 italic leading-relaxed text-sm sm:text-base">
                             "Excelente ubicación, lejos del ruido pero cerca de todo. Las habitaciones son súper cómodas y el WiFi funciona de maravilla para trabajar remoto."
                         </p>
 <div class="flex items-center gap-4 pt-4">
-<div class="size-12 rounded-full bg-primary/20 overflow-hidden">
+<div class="size-10 sm:size-12 rounded-full bg-primary/20 overflow-hidden flex-shrink-0">
 <img class="w-full h-full object-cover" data-alt="Guest portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwJyRipwj7d6hnvip1cqKeav0aJC54fVNiYYQlsxjt9TcrjeH8nGZ1tKIGStPZoizYAkFJylaYPEfyjlxKWVEsJXPij5uBO5YRIV_UXE7qEPs6xUmEc8yAxPFuOKA-r7CRtWpw5jcIT6_Ek2V4tFh5oreYgJZEg2DHq_KApN_dIk4snyr2-xQlDm2mtn9xZX_vTgIgifcCADyKQGFALquRGvayzW3HtmQficbgyQSaJ4Cu3iCGQi39x9smnvW85pHd6TUXDQVBCdE"/>
 </div>
-<div>
-<p class="font-bold">Elena Ruiz</p>
+<div class="min-w-0">
+<p class="font-bold text-sm sm:text-base">Elena Ruiz</p>
 <p class="text-xs text-white/50 uppercase font-bold">España</p>
 </div>
 </div>
@@ -259,11 +268,11 @@
 </div>
 </section>
 <!-- Map & Location -->
-<section class="py-24 px-6 max-w-[1200px] mx-auto">
-<div class="grid lg:grid-cols-[1fr_400px] gap-12 items-start">
-<div class="space-y-8">
-<h2 class="text-3xl font-bold tracking-tight">Ubícanos en el Paraíso</h2>
-<div class="w-full h-[400px] bg-gray-200 rounded-xl overflow-hidden relative border-4 border-white shadow-2xl">
+<section class="py-16 sm:py-20 md:py-24 px-4 sm:px-6 max-w-[1200px] mx-auto">
+<div class="grid lg:grid-cols-[1fr_350px] xl:grid-cols-[1fr_400px] gap-8 md:gap-12 items-start">
+<div class="space-y-6 sm:space-y-8">
+<h2 class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">Ubícanos en el Paraíso</h2>
+<div class="w-full h-[250px] sm:h-[300px] md:h-[400px] bg-gray-200 rounded-lg sm:rounded-xl overflow-hidden relative border-4 border-white shadow-2xl">
 <!-- Simulated Map with an Image -->
 <img class="w-full h-full object-cover grayscale brightness-75" data-alt="Map view showing coastal location of the hotel" data-location="Bacalar, Mexico" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZT5b5r_qaCupLfX4LPnOcLBEq3QnfvI-tmZE4030ZWh558rq-nLz9D520baDKJVntGNRBR8tMRWlrYkLl2_3fONE8Mh1rymdQe9yh3jyJn6e9NCIzgSYTxgg-aRH3KBfIPXSAcC6Mq-GWbIQabnKQP7PSz3wUWpTKQtxDoL4ZxQPW_aeS5V-GRtxk4rzj5ecERPDK4mDp_OzcBdLHU7oPHklLAqB4xW0K9ZY46k5at4XuK-hZP4ymewY3VROJ6OLHKD4bV7cf420"/>
 <div class="absolute inset-0 flex items-center justify-center">
@@ -273,73 +282,73 @@
 </div>
 </div>
 </div>
-<div class="bg-sand dark:bg-white/5 p-8 rounded-xl space-y-6">
-<h3 class="text-xl font-bold">Contáctanos</h3>
+<div class="bg-sand dark:bg-white/5 p-6 sm:p-8 rounded-lg sm:rounded-xl space-y-6">
+<h3 class="text-lg sm:text-xl font-bold">Contáctanos</h3>
 <div class="space-y-4">
 <div class="flex items-start gap-4">
-<span class="material-symbols-outlined text-primary">pin_drop</span>
-<p class="text-sm">Costera de Bacalar, Lote 42, Centro, 77930 Bacalar, Q.R., México</p>
+<span class="material-symbols-outlined text-primary flex-shrink-0">pin_drop</span>
+<p class="text-xs sm:text-sm leading-relaxed">Costera de Bacalar, Lote 42, Centro, 77930 Bacalar, Q.R., México</p>
 </div>
 <div class="flex items-start gap-4">
-<span class="material-symbols-outlined text-primary">call</span>
-<p class="text-sm">+52 983 123 4567</p>
+<span class="material-symbols-outlined text-primary flex-shrink-0">call</span>
+<p class="text-xs sm:text-sm">+52 983 123 4567</p>
 </div>
 <div class="flex items-start gap-4">
-<span class="material-symbols-outlined text-primary">mail</span>
-<p class="text-sm">hola@lasantabacalar.com</p>
+<span class="material-symbols-outlined text-primary flex-shrink-0">mail</span>
+<p class="text-xs sm:text-sm">hola@lasantabacalar.com</p>
 </div>
 </div>
 <div class="pt-6 border-t border-gray-200 dark:border-white/10">
-<p class="text-xs font-bold uppercase text-gray-400 mb-4 tracking-widest">Horario de Atención</p>
-<p class="text-sm">Recepción: 24/7</p>
-<p class="text-sm">Check-in: 15:00 - Check-out: 11:00</p>
+<p class="text-xs font-bold uppercase text-gray-400 mb-3 sm:mb-4 tracking-widest">Horario de Atención</p>
+<p class="text-xs sm:text-sm">Recepción: 24/7</p>
+<p class="text-xs sm:text-sm">Check-in: 15:00 - Check-out: 11:00</p>
 </div>
 </div>
 </div>
 </section>
 <!-- Final CTA -->
-<section class="py-20 bg-primary/10 text-center px-6">
-<div class="max-w-2xl mx-auto space-y-8">
-<h2 class="text-4xl font-black text-[#111718] dark:text-white">¿Listo para tu próxima aventura?</h2>
-<p class="text-lg opacity-80">Reserva directamente con nosotros y obtén el mejor precio garantizado y un cóctel de bienvenida.</p>
-<button class="bg-primary text-white px-10 py-5 rounded-full text-lg font-bold shadow-xl shadow-primary/30 hover:scale-105 transition-transform">
+<section class="py-12 sm:py-16 md:py-20 bg-primary/10 text-center px-4 sm:px-6">
+<div class="max-w-2xl mx-auto space-y-6 sm:space-y-8">
+<h2 class="text-3xl sm:text-4xl font-black text-[#111718] dark:text-white">¿Listo para tu próxima aventura?</h2>
+<p class="text-base sm:text-lg opacity-80 px-2">Reserva directamente con nosotros y obtén el mejor precio garantizado y un cóctel de bienvenida.</p>
+<button class="bg-primary text-white px-8 sm:px-10 py-4 sm:py-5 rounded-full text-base sm:text-lg font-bold shadow-xl shadow-primary/30 hover:scale-105 transition-transform">
                     Reservar mi estancia ahora
                 </button>
 </div>
 </section>
 </main>
 <!-- Footer -->
-<footer class="bg-white dark:bg-background-dark border-t border-gray-100 dark:border-white/10 py-12">
-<div class="max-w-[1200px] mx-auto px-6">
-<div class="flex flex-col md:flex-row justify-between items-center gap-8">
-<div class="flex items-center gap-3">
-<div class="size-6 text-primary">
+<footer class="bg-white dark:bg-background-dark border-t border-gray-100 dark:border-white/10 py-8 sm:py-10 md:py-12">
+<div class="max-w-[1200px] mx-auto px-4 sm:px-6">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-8">
+<div class="flex items-center gap-2 sm:gap-3">
+<div class="size-5 sm:size-6 text-primary flex-shrink-0">
 <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
 <path d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z" fill="currentColor"></path>
 </svg>
 </div>
-<span class="font-extrabold text-lg">La Santa Bacalar</span>
+<span class="font-extrabold text-base sm:text-lg">La Santa Bacalar</span>
 </div>
-<div class="flex gap-8 text-sm font-medium text-gray-500">
-<a class="hover:text-primary" href="#">Privacidad</a>
-<a class="hover:text-primary" href="#">Términos</a>
-<a class="hover:text-primary" href="#">Sostenibilidad</a>
+<div class="flex gap-4 sm:gap-8 text-xs sm:text-sm font-medium text-gray-500 text-center md:text-left">
+<a class="hover:text-primary transition-colors" href="#">Privacidad</a>
+<a class="hover:text-primary transition-colors" href="#">Términos</a>
+<a class="hover:text-primary transition-colors" href="#">Sostenibilidad</a>
 </div>
-<div class="flex gap-4">
-<a class="size-10 rounded-full bg-gray-100 dark:bg-white/5 flex items-center justify-center hover:text-primary transition-colors" href="#">
-<span class="material-symbols-outlined !text-xl">language</span>
+<div class="flex gap-3 sm:gap-4">
+<a class="size-9 sm:size-10 rounded-full bg-gray-100 dark:bg-white/5 flex items-center justify-center hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined !text-lg sm:!text-xl">language</span>
 </a>
-<a class="size-10 rounded-full bg-gray-100 dark:bg-white/5 flex items-center justify-center hover:text-primary transition-colors" href="#">
-<span class="material-symbols-outlined !text-xl">camera</span>
+<a class="size-9 sm:size-10 rounded-full bg-gray-100 dark:bg-white/5 flex items-center justify-center hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined !text-lg sm:!text-xl">camera</span>
 </a>
 </div>
 </div>
-<p class="text-center text-xs text-gray-400 mt-12">© 2024 La Santa Bacalar Boutique Hotel. Hecho con amor en el Caribe.</p>
+<p class="text-center text-xs text-gray-400 mt-8 sm:mt-10 md:mt-12">© 2024 La Santa Bacalar Boutique Hotel. Hecho con amor en el Caribe.</p>
 </div>
 </footer>
 <!-- Floating WhatsApp -->
-<a class="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center gap-2 group" href="https://wa.me/yournumber">
-<span class="material-symbols-outlined">chat</span>
-<span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 whitespace-nowrap font-bold">Chatea con nosotros</span>
+<a class="fixed bottom-4 sm:bottom-6 md:bottom-8 right-4 sm:right-6 md:right-8 z-[100] bg-[#25D366] text-white p-3 sm:p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center gap-2 group" href="https://wa.me/yournumber">
+<span class="material-symbols-outlined text-lg sm:text-xl">chat</span>
+<span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 whitespace-nowrap font-bold text-xs sm:text-sm">Chatea con nosotros</span>
 </a>
 </body></html>

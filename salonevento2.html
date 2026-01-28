@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Salones | Espacios Exquisitos para Eventos</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#19e65e",
+                        "background-light": "#f6f8f6",
+                        "background-dark": "#112116",
+                        "sage-gold": "#C5B358"
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body {
+            font-family: "Plus Jakarta Sans", sans-serif;
+        }
+        .glass-nav {
+            backdrop-filter: blur(12px);
+            @apply bg-white/80 dark:bg-[#112116]/80;
+        }
+        @keyframes bounce-subtle {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+        .animate-bounce-subtle {
+            animation: bounce-subtle 3s infinite;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0e1b12] dark:text-white transition-colors duration-300">
+<header class="fixed top-0 w-full z-50 glass-nav border-b border-primary/10">
+<div class="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="text-primary">
+<span class="material-symbols-outlined text-4xl">castle</span>
+</div>
+<h2 class="text-[#0e1b12] dark:text-white text-xl font-extrabold tracking-tight uppercase">Salon de eventos</h2>
+</div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#services">Servicios</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#gallery">Galería</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#virtual-tour">Recorrido Virtual</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#location">Ubicación</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="bg-primary hover:bg-primary/90 text-[#0e1b12] px-6 py-2.5 rounded-lg text-sm font-bold transition-all transform hover:scale-105 hidden sm:block">
+                    Reservar Visita
+                </button>
+<div class="w-10 h-10 rounded-full bg-cover bg-center border-2 border-primary/20" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCNhVB-h3-D6tY-REcNBClQxh0Ki079mtVGqEzR1JruP1i2BeWUGvTTqfwBNC64Ud64yDHtZibE5DuFW0Y4l8yX0Flvses-arhM1PXxI89z1T5tIgoIhssQoowonfUfh2NOaysSNYCUEB4iWFe6zBZedKOf9EQsFPvR-jecLO3i0F9Y8M9G0W1i-einKdCFUUgmlxrc548VVCiFDlWA8RfmTdo_rr2O2O8QuRwF8QhGlQ3W80pAVTvwtSIQx2j7unxkc0BvKzNZKrsA');"></div>
+</div>
+</div>
+</header>
+<main class="pt-20">
+<section class="relative h-[85vh] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCqxwiMdQPRbJrrX7cSIkInIVbrbmtoR1cCcQfJAsim66VBBroJHPupj_zKlCzxF8ppRcW20tNk5tDUAhMmn9-gHuOmArSQKgBZ5ABenhPCfeiqDf2vC1mLyZj6E-cy6IBj5Jj3qY6mipmv2lAD4b5HfpDWFd0pKAARCXBSU5lfeYW6kaSNQYwBRIVRzQ2TFOAhl1VLTp3UDkImNQ07Aw5ltmsTwmKPvu8cLh1v_MnwmDx0iOf8ARuj0j7rIV9_irnXzgiF0C__fBzA');">
+</div>
+<div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+<h1 class="text-white text-5xl md:text-7xl font-black mb-6 leading-[1.1] tracking-tight">
+                    Espacios Exquisitos para Momentos <span class="text-primary">Inolvidables</span>
+</h1>
+<p class="text-white/90 text-lg md:text-xl font-light mb-10 max-w-2xl mx-auto leading-relaxed">
+                    Vive el máximo nivel de elegancia y celebraciones profesionales en nuestros salones premium galardonados.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="bg-primary text-[#0e1b12] px-10 py-4 rounded-xl text-base font-bold transition-all hover:shadow-lg hover:shadow-primary/30">
+                        Reserva Ahora
+                    </button>
+<button class="bg-white/10 backdrop-blur-md border border-white/30 text-white px-10 py-4 rounded-xl text-base font-bold hover:bg-white/20 transition-all">
+                        Ver Paquetes
+                    </button>
+</div>
+</div>
+</section>
+<section class="max-w-7xl mx-auto px-6 -mt-16 relative z-20">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-xl border border-primary/10 flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-2">history_edu</span>
+<p class="text-3xl font-black text-[#0e1b12] dark:text-white">10+</p>
+<p class="text-gray-500 font-medium">Años de Experiencia</p>
+</div>
+<div class="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-xl border border-primary/10 flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-2">celebration</span>
+<p class="text-3xl font-black text-[#0e1b12] dark:text-white">500+</p>
+<p class="text-gray-500 font-medium">Eventos Realizados</p>
+</div>
+<div class="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-xl border border-primary/10 flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-2">workspace_premium</span>
+<p class="text-3xl font-black text-[#0e1b12] dark:text-white">15+</p>
+<p class="text-gray-500 font-medium">Premios Ganados</p>
+</div>
+</div>
+</section>
+<section class="py-24 max-w-7xl mx-auto px-6 lg:px-10 overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="aspect-[4/5] rounded-3xl bg-cover bg-center shadow-2xl" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDv16jI8om11v4Q7bZ5YDU48KKqkrqyhbchWRjYoEQokkpOjwvsNS4njrSarLjHwdt-ST5xSzFC20Ari54nFokrOGNQkbl5mylQu-pFjv-M1LiM9T5zNI6bY93JiU9fDxzKo2sIjbNC9gGpwWH4plLLRZqVCSrKKOBgvOdgCyVc2Lb6KNQ9j0oKXPJJZyrDOEIHNd8MjsO6VNaftPhVbivxedK_kyOobMczQqK0-19g3xUdIGoBCSw7nh6F6M8MGuqwa0srzL4pR7wx');">
+</div>
+<div class="absolute -bottom-8 -right-8 w-64 h-64 rounded-3xl bg-primary/20 border-8 border-background-light dark:border-background-dark hidden md:block overflow-hidden">
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAAWSSLSbdK5BGmYPxi_G7YQG5YXENEQQ56jMAX5NXcy_KFTQqOf2FjxbgxPDI9gWAo-rE19BUx1nlqP31iQ3g5s_EVrVJHMdCLgM7NVUrMYgz0rZhemr7k9tF-Xcs403Btw9fLBAMir_0adVqvu1swMw9JZlLF-CA6nDTyuKPIE278cNIkH4MNBIUgi9I29lo883C47zLRto4IDh99gZQqabfOTVDqwP4CEPFfdbR6aDemSfpTrkpSKz-bD_eZa_42q7AlodKT0JwV');"></div>
+</div>
+</div>
+<div class="space-y-6">
+<div class="inline-block bg-primary/10 text-primary px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest">
+                        Sobre Nosotros
+                    </div>
+<h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Creando Recuerdos en un Entorno de Pura Sofisticación</h2>
+<p class="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+                        El salon ofrece más que un simple espacio; brindamos un lienzo para sus momentos más preciados. Nuestra arquitectura combina la grandeza clásica con comodidades modernas.
+                    </p>
+<ul class="space-y-4 pt-4">
+<li class="flex items-center gap-3 text-sm font-semibold">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Capacidad para hasta X invitados
+                        </li>
+<li class="flex items-center gap-3 text-sm font-semibold">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Catering 
+                        </li>
+<li class="flex items-center gap-3 text-sm font-semibold">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+                            Diseño acústico de última generación
+                        </li>
+</ul>
+<div class="pt-6">
+<button class="border-b-2 border-primary text-[#0e1b12] dark:text-white font-bold pb-1 hover:text-primary transition-colors">
+                            Conozca nuestra historia
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-primary/5 dark:bg-white/5" id="services">
+<div class="max-w-7xl mx-auto px-6 lg:px-10">
+<div class="text-center mb-16 space-y-4">
+<h2 class="text-4xl font-black">Nuestros Servicios Exclusivos</h2>
+<p class="text-gray-500 max-w-xl mx-auto">Experiencias personalizadas para sus hitos más importantes, gestionadas por nuestros coordinadores dedicados.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="group bg-white dark:bg-background-dark rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-video bg-cover bg-center overflow-hidden" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA1dl62zl7lifrIvzAaU97OdzouPkfdFapobtvhLs8ODJyJ0UEU8Jdk-IHW2WAxoOeWQePszo2xsgwdBhON8wU5gP8E0UIR8qsSVmChuJvhvfF-c9emYEfjHi9zWOJLLnerv4cC-cDuhNRVj2zTK0HYpCzN2pddj1yRgdjjKkVQQADc2SThe5VORDTlmo-A6rjSZwd2GPnbxi2PGW6d5_Ojxbq2UtoiILG7l-NB4bW35X0TJfAJ9uPSTQSB2neAgl9zXfHIa9qYvY_E');">
+<div class="w-full h-full bg-black/20 group-hover:bg-black/0 transition-all duration-300"></div>
+</div>
+<div class="p-8">
+<h3 class="text-xl font-bold mb-3">Bodas</h3>
+<p class="text-gray-500 text-sm leading-relaxed mb-6">Escenarios etéreos para su día especial. Desde reuniones íntimas hasta grandes galas.</p>
+<a class="text-primary font-bold text-sm flex items-center gap-2 group" href="#">
+                                Explorar Paquetes <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="group bg-white dark:bg-background-dark rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-video bg-cover bg-center overflow-hidden" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDGQib9EuBW8eA993BfbFE3-Q91RXf0VfZVKAK-HMy7yjCELWSm_oj93iATeebjs-KhJLwHD0dHdOa03OH2emRoOrWn5K3v7mutz37WXiFgd_z-wyuyax7QYgw4ijj_S6N0o7y1qn8gv1hvJqNU9Cork2HiCybbqYaSJJImKR3VoNbIZuIkUNTN7iwVX-wLIruDR3K2tAIfsxyT1bMygmI_BxEXYgcrAAsnmK53ajhkBUN7JD0LMGBQFI_5h44ACtWPR6mTP3NMQbzx');">
+<div class="w-full h-full bg-black/20 group-hover:bg-black/0 transition-all duration-300"></div>
+</div>
+<div class="p-8">
+<h3 class="text-xl font-bold mb-3">Eventos Corporativos</h3>
+<p class="text-gray-500 text-sm leading-relaxed mb-6">Diseños profesionales para la excelencia empresarial, conferencias y galas de alto impacto.</p>
+<a class="text-primary font-bold text-sm flex items-center gap-2 group" href="#">
+                                Folleto Corporativo <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="group bg-white dark:bg-background-dark rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-video bg-cover bg-center overflow-hidden" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCBDo7N_RPnkqGWV87Xn0IFssb-kAgQz3aZ_rArSJhDqVTxsVFke-cZAymWIrUcbtoZxBa_lU5lF3tTx_bkd2VpYTO29IpCgkH9Q6J2FvsU3ac7CQ55KPsLC6MHSgeZ0OyJUwL4gOtM6CW63ciYoc19HdLmGMYjroBgcTL92dPPNF2RxcSBeanje9OsvXN-hW7L4wRyaev-jDxnHBeg4AnbIDCy_iE2pI1S5YeT0gt68ILBd-8Ds93biHHkfirRupr9WdPBOrcwMDRM');">
+<div class="w-full h-full bg-black/20 group-hover:bg-black/0 transition-all duration-300"></div>
+</div>
+<div class="p-8">
+<h3 class="text-xl font-bold mb-3">Fiestas Privadas</h3>
+<p class="text-gray-500 text-sm leading-relaxed mb-6">Espacios íntimos para celebraciones memorables, cumpleaños y aniversarios exclusivos.</p>
+<a class="text-primary font-bold text-sm flex items-center gap-2 group" href="#">
+                                Ver Galería <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 max-w-7xl mx-auto px-6 lg:px-10" id="virtual-tour">
+<div class="bg-[#0e1b12] rounded-[2rem] overflow-hidden p-8 md:p-16 flex flex-col items-center text-center">
+<div class="max-w-2xl mb-12">
+<h2 class="text-white text-4xl md:text-5xl font-black mb-6">Vívelo desde cualquier lugar</h2>
+<p class="text-white/70 text-lg">Adéntrate en nuestro gran salón con nuestro tour virtual envolvente de 360°. Explora cada detalle desde la comodidad de tu hogar.</p>
+</div>
+<div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-cover bg-center flex items-center justify-center group cursor-pointer shadow-2xl" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1DIUCbQCDtD19loOlaneIfivAxBrStaYvVn_Eflf65AUk3k9i5uDPi7AguK7ol0N6ZUjFpoXoZcdKSJmaBNr_l2G3sT4HEctw-m8NEt1gIIZhDH7HioH5ZxYO__mJGSUJJIiHAxEYBTcxNx2puRB9NaldHooCRsLzpvi2o3wbsMEk9G-OoT88Qp9kMuZd3STAYUhM98kxYhjQs4QKBfd4Yg1O5I0bFlWpwpKGatfUdfeLeR-79tpeTpKIkIU6JyL4Ssj8xnGbO6vj');">
+<iframe 
+  src="https://toursin360.vercel.app/TOURS/proyectos/Portafolio4.html"
+  width="100%" 
+  height="500" 
+  style="border:none; margin:0; padding:0; overflow:hidden;" allow="fullscreen; gyroscope; accelerometer">
+</iframe>
+</div>
+</div>
+</section>
+<section class="py-24 max-w-7xl mx-auto px-6 lg:px-10" id="gallery">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+<div class="space-y-2">
+<h2 class="text-4xl font-black">Momentos Destacados</h2>
+<p class="text-gray-500">Un vistazo a los eventos mágicos celebrados en Luxe Venues.</p>
+</div>
+<button class="bg-background-light dark:bg-white/5 border border-primary/20 px-6 py-3 rounded-xl font-bold hover:bg-primary/10 transition-colors">
+                    Ver Galería Completa
+                </button>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="aspect-square rounded-2xl bg-cover bg-center col-span-2 row-span-2" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCDY7EYwsjNRHMVg34cNFvQuA8_2c4ylP1MoMsSh6CAy3nBTAyslN8Jt81UnbUZjuYuAr9W_Zl7CsXl3caiFI4t6vZGPWSTxhQ-4YMfjWhCmhtTOxjiVSPYycOAwyCA94arHJ0g-tNL9hXgHziVqn2B4IuQyL7b_lVCYWbGMdNoeJcvpOJD0amF0oRWlaVB_6esyu3cSxlUDGT8Vny7Q9aGBWTySj4k5Zf_SaxHXXNfI2a4tNO_C60ClKaDHYmN0HegZdMgBXozkj3n');"></div>
+<div class="aspect-square rounded-2xl bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCPpVSL69LKRyV31O9-zinhQlkAKj3c4RSHMaB0n6vWEa_Gs5mGRp7eyiiFFOIH4y6zyjrgmSrIxRmzp1KLd_zkiTB4Y8jVBMS8ojXCFLKUXn88uyQ8SQiaDj9msxyqfl9-4dTIxJUpZhrZAQJUucuEe78RgzrhJhVKxeOLh2WrOOeph1Ch5aN_fxqIHWkXvBiXAtfHgnRTtMrdaM5T03192g1z576eiY33m0rWAhp2OkASImJK4sRgL6Mv8seY5WhF9I_EuA23Va_9');"></div>
+<div class="aspect-square rounded-2xl bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAFgu1Mw_x_na8ZvZGj3zcJwL0IRuslldIWXRip7QbDrYCI8EM-AWfn_uUygBmjMK3XPd5y-MC-KNSyhnBByPBZWz1-GXCy3LkSwlX5xhH2A65Jy-i8sX1R41CglK3oSAuNxPW3qR3Bw4AN314TKdGeIM43hFJObEvWWYTXjWwTLZHtRdXo2HYAehDGAbD6s5Ft5Wuuh48QSwOsj_YLyPos486sY8k1WnFGOv98NDX3UONdh0MGwQ3nkMFkOPHqI0TVJ0G0zVvh2jkW');"></div>
+<div class="aspect-square rounded-2xl bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCvg8MK9CH8MKU-hfz2N2iImSfrfKTB8F7oNCaSjdzWszCQkpDzgw8qoNzgwC4rt_EhSbUEHsNL8P5Gzv_XLYcNOu47olTAz92d1hq-CvvkYwpxyODif3fszf8S-WAdq3g7Jac2cpBDvEhhU9c8r-5v_LLuGEa7D82cVvnZqMwxxYXIV3Iks2nV3Jn8op-AIF7Klc5xrmEyEC2QlxpfEQO9zzUrHHqaDekC8kXi8jtBGoLmqaJ7YFgxKpePHwoSZA-MrIs-eO8CW-1-');"></div>
+<div class="aspect-square rounded-2xl bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB6ARGR-vN6ob4wBou2ccCoIrx6GwEANGhvdaiUx305PyZhqyXImCDsgrUN2w6NMJH5u60uOIw7TJML5MDX-l2rOpXQQ5Yj6XmTsxVNp6IpXLiwTJPwMS5PVgOnTqk_EmD_CBhwMvcaRpSMf6WWWA0E0BcJ2On1cYXJJuaQAdUFh1pNxnnNwvZvz4N9TuzQy3iY3Lw25fs4p4Dc73ePOhnVJfYduPTsMBOLuNZB34Rprhgt5FEtwAF9m6GZLQ8nkzmRc612jDk_r79Z');"></div>
+</div>
+</section>
+<section class="py-24 bg-background-light dark:bg-background-dark" id="location">
+<div class="max-w-7xl mx-auto px-6 lg:px-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div class="space-y-10">
+<div>
+<h2 class="text-4xl font-black mb-4">Planea tu Visita</h2>
+<p class="text-gray-500">Contacta a nuestro equipo de conserjería para programar un recorrido privado por nuestras instalaciones.</p>
+</div>
+<form class="space-y-4">
+<div class="grid grid-cols-2 gap-4">
+<input class="w-full bg-white dark:bg-white/5 border-primary/20 rounded-xl px-5 py-4 focus:ring-primary focus:border-primary" placeholder="Nombre" type="text"/>
+<input class="w-full bg-white dark:bg-white/5 border-primary/20 rounded-xl px-5 py-4 focus:ring-primary focus:border-primary" placeholder="Apellido" type="text"/>
+</div>
+<input class="w-full bg-white dark:bg-white/5 border-primary/20 rounded-xl px-5 py-4 focus:ring-primary focus:border-primary" placeholder="Correo Electrónico" type="email"/>
+<select class="w-full bg-white dark:bg-white/5 border-primary/20 rounded-xl px-5 py-4 focus:ring-primary focus:border-primary">
+<option>Tipo de Evento</option>
+<option>Bodas</option>
+<option>Eventos Corporativos</option>
+<option>Fiestas Privadas</option>
+</select>
+<textarea class="w-full bg-white dark:bg-white/5 border-primary/20 rounded-xl px-5 py-4 focus:ring-primary focus:border-primary" placeholder="Cuéntanos sobre tu evento..." rows="4"></textarea>
+<button class="w-full bg-primary text-[#0e1b12] py-4 rounded-xl font-bold shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-shadow">
+                                Enviar Solicitud
+                            </button>
+</form>
+<div class="flex flex-col sm:flex-row gap-8 pt-4">
+<div class="flex items-center gap-4">
+<div class="bg-primary/20 p-3 rounded-lg text-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs font-bold text-gray-400 uppercase">Llámanos</p>
+<p class="font-bold">+34 900 123 456</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="bg-primary/20 p-3 rounded-lg text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-xs font-bold text-gray-400 uppercase">Email</p>
+<p class="font-bold">eventos@saloneventos.com</p>
+</div>
+</div>
+</div>
+</div>
+<div class="h-full min-h-[500px] rounded-3xl overflow-hidden shadow-2xl border-8 border-white dark:border-white/5">
+<div class="w-full h-full bg-gray-200">
+<iframe frameborder="0" height="100%" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Madrid+(Luxe%20Venues)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%">
+</iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background-dark text-white/50 py-16">
+<div class="max-w-7xl mx-auto px-6 lg:px-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 md:col-span-1 space-y-6">
+<div class="flex items-center gap-3 text-white">
+<span class="material-symbols-outlined text-primary">Cancun</span>
+<h2 class="text-xl font-extrabold tracking-tight">SALON EVENTOS</h2>
+</div>
+<p class="text-sm leading-relaxed">Definiendo la elegancia en las celebraciones. Nuestro salón ha sido el hogar de eventos de clase mundial durante más de una década.</p>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Enlaces Rápidos</h4>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Nuestra Historia</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Salones</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Paquetes</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Catering</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Recursos</h4>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">FAQ</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Socios</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Recorrido Virtual</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Carreras</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Boletín</h4>
+<p class="text-sm mb-4">Mantente informado sobre nuestros últimos paquetes de temporada.</p>
+<div class="flex gap-2">
+<input class="bg-white/5 border-white/10 rounded-lg px-4 py-2 w-full focus:ring-primary focus:border-primary text-sm" placeholder="Tu email" type="text"/>
+<button class="bg-primary text-[#0e1b12] px-4 py-2 rounded-lg font-bold">
+<span class="material-symbols-outlined text-sm">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+<p>©. Todos los derechos reservados.</p>
+<div class="flex gap-6">
+<a class="hover:text-white" href="#">Política de Privacidad</a>
+<a class="hover:text-white" href="#">Términos de Servicio</a>
+</div>
+</div>
+</div>
+</footer>
+<a class="fixed bottom-8 right-8 z-[60] bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform animate-bounce-subtle" href="https://wa.me/34900123456" target="_blank">
+<svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+<path d="M12.031 6.062c-3.411 0-6.182 2.771-6.182 6.182 0 1.258.373 2.43 1.012 3.412l-.669 2.445 2.504-.657c.944.536 2.031.844 3.191.844 3.411 0 6.182-2.771 6.182-6.182s-2.771-6.182-6.182-6.182zm4.515 8.761c-.183.513-1.056 1.01-1.528 1.066-.432.052-.989.108-2.923-.65-2.316-.91-3.801-3.268-3.916-3.424-.116-.156-.944-1.253-.944-2.39 0-1.137.594-1.696.806-1.921.212-.225.465-.281.62-.281.156 0 .311.001.448.006.141.005.333-.053.522.399.196.47.669 1.631.726 1.745.057.114.094.246.019.394-.075.148-.113.241-.226.372-.113.131-.237.292-.339.394-.114.113-.232.237-.1.464.132.227.587.967 1.26 1.567.868.774 1.599 1.015 1.826 1.129.227.114.36.095.493-.058.133-.154.568-.66.72-.885.152-.226.304-.19.511-.113.208.077 1.317.621 1.545.735.228.114.379.17.435.267.057.098.057.567-.126 1.08z"></path>
+</svg>
+</a>
+
+</body></html>

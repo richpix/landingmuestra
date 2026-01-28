@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LUXE YUCATÁN | Planeación de Bodas de Lujo</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#eebd2b",
+                        "sage": "#8d9984",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#221d10",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"],
+                        "serif": ["serif"],
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+        .testimonial-quote {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#181611] dark:text-white antialiased">
+<header class="fixed top-0 left-0 w-full z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-[#e6e3db] dark:border-[#3a3424]">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="text-primary">
+<svg class="size-8" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-extralight tracking-[0.2em] uppercase">Luxe Yucatán</h2>
+</div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-sm font-medium tracking-wide hover:text-primary transition-colors" href="#servicios">SERVICIOS</a>
+<a class="text-sm font-medium tracking-wide hover:text-primary transition-colors" href="#sobre-mi">SOBRE MÍ</a>
+<a class="text-sm font-medium tracking-wide hover:text-primary transition-colors" href="#portafolio">PORTAFOLIO</a>
+<a class="text-sm font-medium tracking-wide hover:text-primary transition-colors" href="#contacto">CONTACTO</a>
+<button class="bg-primary text-[#181611] px-8 py-2.5 rounded-full text-sm font-bold tracking-wider hover:bg-opacity-90 transition-all">
+                CONSULTA
+            </button>
+</nav>
+</div>
+</header>
+<main class="pt-20">
+<section class="relative h-[90vh] flex items-center justify-center px-6 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-black/30 z-10"></div>
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC0Jn4h6bs_IhowLLh4DWHxRAX2CuNFBMspyosfaDZepoF01sHcx0OqXR12Mr9dwVB6wIqjhIQjf6h5v_rdy_cPbdtfLDvkVkM9hbVl_dyNik7oXDCGnRbY2jOXI6Qf1nrCEE210n6QcHuBHK_3tNvAHx9w688v3MDjZskMRNDUWrRwJImZ9L-B2eerK5GxFHtYIjDU5zAnJ6PkSNgWcwbHBf9Gc-fpnT-v0aWZy3F4JutZ-CdHOA6zCFzqC0V34lJFlZwfcNTKXws');">
+</div>
+</div>
+<div class="relative z-20 text-center max-w-4xl">
+<h1 class="text-white text-5xl md:text-7xl font-extralight leading-[1.1] mb-8 tracking-tight">
+                Haz realidad la <span class="italic testimonial-quote">boda</span> de tus sueños
+            </h1>
+<p class="text-white/90 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto leading-relaxed">
+                Planeación y coordinación con amor en Cancún y Mérida.
+            </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+<button class="bg-primary text-[#181611] px-10 py-4 rounded-full text-base font-bold tracking-widest min-w-[220px]">
+                    INICIA TU VIAJE
+                </button>
+<button class="bg-white/10 backdrop-blur-md border border-white/30 text-white px-10 py-4 rounded-full text-base font-bold tracking-widest min-w-[220px] hover:bg-white/20 transition-all">
+                    VER PORTAFOLIO
+                </button>
+</div>
+</div>
+</section>
+<section class="py-24 px-6 bg-white dark:bg-[#1a160d]" id="sobre-mi">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBJiDKnf0aesvkoKyvocG-RCiSYp-ZieEZ-dXz3XWzxsncaHylWj5L_FJr3D26kLg_16y8UX0ZrAvFfLfEHGsE2XfYg_uqWzyvh-_mVvcIFtTokj8YIZdX6OTLsze4VSgD4AAOvNNA4hTKKcsN8iQEG5rZgLjoCaZwmBk1gD2is9rrrPhwpxgDomAHDoWH6EgT75h-vrVxv4rB-7_s2mU2lbov5R62Ah-m8H4vazAAKuEmQoCzG07Z36fNUqruGCnhVtXTAQD306J8');"></div>
+</div>
+<div class="absolute -bottom-6 -right-6 w-48 h-48 bg-primary/10 rounded-full -z-10"></div>
+</div>
+<div class="space-y-8">
+<div>
+<span class="text-primary text-sm font-bold tracking-[0.3em] uppercase mb-4 block">Sobre Mí</span>
+<h2 class="text-4xl md:text-5xl font-extralight text-[#181611] dark:text-white leading-tight">Pasión por crear <span class="italic testimonial-quote">momentos inolvidables</span></h2>
+</div>
+<div class="space-y-6 text-[#897f61] dark:text-[#c4bdac] text-lg leading-relaxed font-light">
+<p>
+                        Con más de 6 años de experiencia en la industria de eventos de lujo, he dedicado mi carrera a transformar visiones personales en celebraciones espectaculares que reflejan la esencia única de cada pareja.
+                    </p>
+<p>
+                        Mi filosofía de trabajo se basa en la atención meticulosa a los detalles y una conexión emocional profunda con mis clientes. Creo que una boda no es solo un evento, sino el inicio de un nuevo capítulo que merece ser contado con elegancia, calma y perfección logística en los escenarios más bellos de Yucatán y Quintana Roo.
+                    </p>
+<div class="flex items-center gap-8 pt-4">
+<div class="text-center">
+<p class="text-3xl font-light text-primary">6+</p>
+<p class="text-xs font-bold tracking-widest uppercase">Años de Experiencia</p>
+</div>
+<div class="w-px h-12 bg-[#e6e3db] dark:bg-[#3a3424]"></div>
+<div class="text-center">
+<p class="text-3xl font-light text-primary">150+</p>
+<p class="text-xs font-bold tracking-widest uppercase">Bodas Realizadas</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-7xl mx-auto py-24 px-6" id="servicios">
+<div class="flex flex-col items-center text-center mb-16">
+<span class="text-primary text-sm font-bold tracking-[0.3em] uppercase mb-4">Nuestra Experiencia</span>
+<h2 class="text-4xl md:text-5xl font-extralight text-[#181611] dark:text-white">Servicios Exclusivos</h2>
+<div class="w-24 h-px bg-primary mt-8"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="group p-10 bg-white dark:bg-[#2a2416] border border-[#e6e3db] dark:border-[#3a3424] rounded-lg hover:border-primary transition-all duration-500 flex flex-col items-center text-center">
+<div class="size-16 flex items-center justify-center rounded-full bg-background-light dark:bg-background-dark mb-8 group-hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
+</div>
+<h3 class="text-2xl font-light mb-4 tracking-tight">Planeación Completa</h3>
+<p class="text-[#897f61] dark:text-[#c4bdac] leading-relaxed font-light">
+                    Cada detalle meticulosamente curado para tu gran día. Desde el diseño conceptual hasta la gestión de proveedores.
+                </p>
+</div>
+<div class="group p-10 bg-white dark:bg-[#2a2416] border border-[#e6e3db] dark:border-[#3a3424] rounded-lg hover:border-primary transition-all duration-500 flex flex-col items-center text-center">
+<div class="size-16 flex items-center justify-center rounded-full bg-background-light dark:bg-background-dark mb-8 group-hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined text-primary text-3xl">calendar_month</span>
+</div>
+<h3 class="text-2xl font-light mb-4 tracking-tight">Coordinación del Día</h3>
+<p class="text-[#897f61] dark:text-[#c4bdac] leading-relaxed font-light">
+                    Ejecución impecable mientras tú te enfocas en el momento. Manejamos la logística para que vivas la magia.
+                </p>
+</div>
+<div class="group p-10 bg-white dark:bg-[#2a2416] border border-[#e6e3db] dark:border-[#3a3424] rounded-lg hover:border-primary transition-all duration-500 flex flex-col items-center text-center">
+<div class="size-16 flex items-center justify-center rounded-full bg-background-light dark:bg-background-dark mb-8 group-hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined text-primary text-3xl">location_on</span>
+</div>
+<h3 class="text-2xl font-light mb-4 tracking-tight">Bodas Destino</h3>
+<p class="text-[#897f61] dark:text-[#c4bdac] leading-relaxed font-light">
+                    Logística experta en las mejores locaciones de Cancún y las históricas haciendas privadas de Mérida.
+                </p>
+</div>
+</div>
+</section>
+<section class="bg-[#f2f1ef] dark:bg-[#1a160d] py-24 px-6" id="portafolio">
+<div class="max-w-7xl mx-auto">
+<div class="flex items-end justify-between mb-12">
+<div>
+<span class="text-sage text-sm font-bold tracking-[0.3em] uppercase mb-4 block">Trabajos Recientes</span>
+<h2 class="text-4xl md:text-5xl font-extralight">Celebraciones Icónicas</h2>
+</div>
+<div class="hidden md:flex gap-4">
+<button class="size-12 rounded-full border border-[#e6e3db] flex items-center justify-center hover:bg-white transition-colors">
+<span class="material-symbols-outlined">west</span>
+</button>
+<button class="size-12 rounded-full border border-[#e6e3db] flex items-center justify-center hover:bg-white transition-colors">
+<span class="material-symbols-outlined">east</span>
+</button>
+</div>
+</div>
+<div class="flex overflow-x-auto gap-8 pb-10 hide-scrollbar scroll-smooth">
+<div class="min-w-[320px] md:min-w-[450px] flex-shrink-0 group cursor-pointer">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden mb-6">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA9Ww6AYR1jjHsBFF8jRiC8wokeqcHP3ypEJrwlmIzVCT5S8jwT2bWcNtcaiW4qvyzGyRBeJBCd92xcF1Dxu-WROIjomlb1TXeEn922cHT8fADWTntdMROEHAMt4pnodwVBl-a-Cjk9AjRXSvCJmX17DV-Y6_BX-7WaVyGR9ouAdJ3si5w0p4fUgrgOs_lKPrGAPn3AwOq8Kc7Gs7QrbVqCJsqP6OcXor_kwfCWNKiIHFVPYa-2stU4EsNZjUpkkc9BNjE_gJxSBzk');"></div>
+</div>
+<h4 class="text-xl font-light mb-1">Elegancia en la Hacienda</h4>
+<p class="text-sage font-medium text-sm tracking-widest uppercase">Mérida, MX</p>
+</div>
+<div class="min-w-[320px] md:min-w-[450px] flex-shrink-0 group cursor-pointer">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden mb-6">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCMziyrg9ledbrrTlT8rIk2RS4cAofwkskKsg20rGdEY58Eik8DTcMOb6sF0lGQkQLvw0K_DJfT8_wNWjjLj6uZtWdUFiB0huvG_7T2YU5Kd0m-mptndpsremUtUg_L4n4zcAQBx5Eip3Z_PiA_I2UElEdSycTwZ54PWi120h5DUSMHuaBem-AOilGURyoAt2evWPTt4gzxzK4801KWxbnpotDV9ONlo6zTp9tEuPdGI6bFzUd2R8D9RqKXR5dmKiFCgBFIQlTuYmY');"></div>
+</div>
+<h4 class="text-xl font-light mb-1">Chic Minimalista</h4>
+<p class="text-sage font-medium text-sm tracking-widest uppercase">Cancún, MX</p>
+</div>
+<div class="min-w-[320px] md:min-w-[450px] flex-shrink-0 group cursor-pointer">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden mb-6">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAScEDMbFyhNidcliDkV5YWgBnGhXYqB8Sp3IaVOU80eeprQuZRGwZ6y9PHZLpWAKXS_NMw13oYV58VjkL80GF9vR-sBnf9J0Y2qEvwgrwTSQ98VIdtToelhPv7nzBvh04J04cAcymXeKMBJpKRYSZK-OaI5zfufmTDCBGmIeQF0AJx5iV4nIeKL4UpuoKq4A4Y3f2yi9GM_jzy2IbxpJdKjVJFH72Vio-n17z5A86K2J_d3VEXPAxxkS5T9OGHwypsE322eednUW0');"></div>
+</div>
+<h4 class="text-xl font-light mb-1">Lujo Costero</h4>
+<p class="text-sage font-medium text-sm tracking-widest uppercase">Tulum, MX</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 px-6 overflow-hidden">
+<div class="max-w-4xl mx-auto text-center">
+<span class="material-symbols-outlined text-primary text-5xl mb-12">format_quote</span>
+<div class="testimonial-quote text-3xl md:text-4xl lg:text-5xl leading-tight mb-12 text-[#181611] dark:text-white">
+                "Luxe Yucatán transformó nuestra visión en una realidad que superó cada sueño. Su atención al detalle en el corazón de Mérida fue simplemente poética."
+            </div>
+<div class="flex flex-col items-center">
+<div class="size-16 rounded-full overflow-hidden mb-4 border-2 border-primary/20 p-1">
+<div class="w-full h-full bg-cover bg-center rounded-full" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBJiDKnf0aesvkoKyvocG-RCiSYp-ZieEZ-dXz3XWzxsncaHylWj5L_FJr3D26kLg_16y8UX0ZrAvFfLfEHGsE2XfYg_uqWzyvh-_mVvcIFtTokj8YIZdX6OTLsze4VSgD4AAOvNNA4hTKKcsN8iQEG5rZgLjoCaZwmBk1gD2is9rrrPhwpxgDomAHDoWH6EgT75h-vrVxv4rB-7_s2mU2lbov5R62Ah-m8H4vazAAKuEmQoCzG07Z36fNUqruGCnhVtXTAQD306J8');"></div>
+</div>
+<span class="text-lg font-bold tracking-widest uppercase mb-1">Sofía &amp; Alexander</span>
+<span class="text-sage text-sm font-medium tracking-wide">Marzo 2024 • Hacienda Tekik de Regil</span>
+</div>
+</div>
+</section>
+<footer class="bg-background-light dark:bg-background-dark border-t border-[#e6e3db] dark:border-[#3a3424] pt-24 pb-12 px-6" id="contacto">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 mb-24">
+<div>
+<h2 class="text-4xl md:text-5xl font-extralight mb-8">Creemos algo <br/><span class="italic testimonial-quote text-primary">extraordinario</span> juntos.</h2>
+<p class="text-[#897f61] dark:text-[#c4bdac] text-lg mb-12 max-w-md">
+                        Ya sea que sueñes con una playa de arena blanca o un patio de hacienda histórico, estamos aquí para guiarte.
+                    </p>
+<div class="space-y-6">
+<div class="flex items-center gap-4 group cursor-pointer">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span class="text-lg font-light group-hover:text-primary transition-colors">hola@luxeyucatan.com</span>
+</div>
+<div class="flex items-center gap-4 group cursor-pointer">
+<span class="material-symbols-outlined text-primary">call</span>
+<span class="text-lg font-light group-hover:text-primary transition-colors">+52 999 450 1234</span>
+</div>
+<div class="flex items-center gap-4 group cursor-pointer">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span class="text-lg font-light group-hover:text-primary transition-colors">Mérida &amp; Cancún, MX</span>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-[#2a2416] p-10 rounded-xl shadow-sm border border-[#e6e3db] dark:border-[#3a3424]">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-xs font-bold tracking-widest uppercase text-[#897f61]">Nombre Completo</label>
+<input class="w-full bg-transparent border-b border-[#e6e3db] dark:border-[#3a3424] focus:border-primary focus:ring-0 px-0 py-3 text-lg font-light outline-none" placeholder="Isabella Rossini" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold tracking-widest uppercase text-[#897f61]">Correo Electrónico</label>
+<input class="w-full bg-transparent border-b border-[#e6e3db] dark:border-[#3a3424] focus:border-primary focus:ring-0 px-0 py-3 text-lg font-light outline-none" placeholder="isabella@ejemplo.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold tracking-widest uppercase text-[#897f61]">Ubicación Deseada</label>
+<select class="w-full bg-transparent border-b border-[#e6e3db] dark:border-[#3a3424] focus:border-primary focus:ring-0 px-0 py-3 text-lg font-light outline-none appearance-none">
+<option>Mérida (Haciendas)</option>
+<option>Cancún (Costa)</option>
+<option>Tulum (Selva/Playa)</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold tracking-widest uppercase text-[#897f61]">Tu Visión</label>
+<textarea class="w-full bg-transparent border-b border-[#e6e3db] dark:border-[#3a3424] focus:border-primary focus:ring-0 px-0 py-3 text-lg font-light outline-none resize-none" placeholder="Cuéntanos un poco sobre la boda de tus sueños..." rows="3"></textarea>
+</div>
+<button class="w-full bg-[#181611] dark:bg-primary text-white dark:text-[#181611] py-5 rounded-full font-bold tracking-[0.2em] hover:bg-opacity-90 transition-all mt-4">
+                            ENVIAR MENSAJE
+                        </button>
+</form>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center pt-12 border-t border-[#e6e3db] dark:border-[#3a3424] gap-6">
+<div class="flex items-center gap-3">
+<div class="text-primary opacity-50">
+<svg class="size-6" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<span class="text-xs font-bold tracking-[0.3em] uppercase opacity-50">Luxe Yucatán © 2024</span>
+</div>
+<div class="flex gap-8">
+<a class="text-xs font-bold tracking-widest hover:text-primary transition-colors" href="#">INSTAGRAM</a>
+<a class="text-xs font-bold tracking-widest hover:text-primary transition-colors" href="#">PINTEREST</a>
+<a class="text-xs font-bold tracking-widest hover:text-primary transition-colors" href="#">FACEBOOK</a>
+</div>
+</div>
+</div>
+</footer>
+</main>
+<a class="fixed bottom-10 right-10 z-[100] bg-white dark:bg-[#181611] border border-[#e6e3db] dark:border-[#3a3424] text-[#181611] dark:text-white p-4 rounded-full shadow-2xl hover:bg-primary hover:text-white dark:hover:text-[#181611] transition-all group" href="#">
+<div class="flex items-center gap-3 px-1">
+<span class="material-symbols-outlined text-3xl">chat_bubble</span>
+<span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-500 font-bold tracking-widest uppercase text-sm">WhatsApp</span>
+</div>
+</a>
+
+</body></html>
